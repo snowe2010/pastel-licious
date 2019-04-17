@@ -1,0 +1,229 @@
+{
+  "name": "Pastel-licious",
+  "dark": false,
+  "author": "Tyler Thrailkill",
+  "editorScheme": "/pastel_licious.xml",
+  "ui": {
+    "*" : {
+      "background": "#eaf2f4",
+      "foreground": "#392313",
+      "infoForeground": "#da836e",
+
+      "//": "controls color of tree items selected in panes like Project, Structure, etc.",
+      "selectionBackground": "#A9E6D0",
+      "selectionForeground": "#002b36",
+      "selectionInactiveBackground": "#f2dcd3",
+      "//": "??",
+      "selectionBackgroundInactive": "#000bf3",
+
+      "//": "project header etc. Also controls Preferences > Editor > General > Postfix Completion for some reason",
+      "inactiveBackground": "#cce0da",
+      
+      "//": "controls all borders",
+      "borderColor": "#629d78",
+      "disabledBorderColor": "#b5dccd",
+
+      "//": "colors the text in a separator (e.g. vcs operations popup)",
+      "separatorForeground": "#cc5079",
+      "//": "colors the tiny separator bar between things like the cog and the collapse buttons and line items in the cog",
+      "separatorColor": "#f39ca4",
+      "lineSeparatorColor": "#000bf3",
+      
+      "//": "around highlighted buttons and selected text fields (like search)",
+      "focusColor": "#f39ca4",
+      "focusedBorderColor": "#cc5079",
+      
+      "//": "any modified items, best way to see is in Preferences",
+      "modifiedItemForeground": "#f274bc",
+      
+      "//": "colors the shortcuts in popups like vcs operations popups and Annotate",
+      "acceleratorForeground": "#f39ca4",
+      "acceleratorSelectionForeground": "#cc5079",
+
+      "errorForeground": "#000bf3"
+    },
+
+    "//": "affects buttons like the 'Play' or 'Debug' buttons",
+    "ActionButton": {
+      "hoverBackground": "#fcf8d5",
+      "hoverBorderColor": "#fcf8d5",
+      "pressedBackground": "#fcf8d5",
+      "pressedBorderColor": "#fcf8d5"
+    },
+    
+    "Button": {
+      "startBackground": "#ace6ff",
+      "endBackground": "#ace6ff",
+      "startBorderColor": "#abcfff",
+      "endBorderColor": "#abcfff",
+      "shadowColor": "#fcf8d5",
+
+      "default": {
+        "startBackground": "#baabff",
+        "endBackground": "#baabff",
+        "startBorderColor": "#d3afffc3",
+        "endBorderColor": "#d3afffc3",
+        "focusedBorderColor": "#d3afff",
+        "focusColor": "#d3afff",
+        "shadowColor": "#fcf8d5"
+      }
+    },
+    
+    "Borders": {
+      "color": "#eacdd0",
+      "ContrastBorderColor": "#a3a6a3"
+    },
+
+    "ComboBox": {
+      "nonEditableBackground": "#f9f7f7",
+      "background": "#f9f7f7ab",
+      "ArrowButton": {
+        "iconColor": "#f9f7f7",
+        "disabledIconColor": "#f9f7f7",
+        "//": "most comboboxes are noneditable (you can't change the text)",
+        "nonEditableBackground": "#f274bc",
+        "//": "one example of an editable combobox is the Search in Path with directory",
+        "background": "#abcfff"
+      }
+    },
+    
+    "Editor": {
+      "background": "#cce0da",
+      "foreground": "#586e75",
+      "shortcutForeground": "#2aa198"
+    },
+
+    "EditorPane.inactiveBackground": "#cce0da",
+
+    "EditorTabs": {
+      "selectedForeground": "#657b83",
+      "underlineColor": "#586e75",
+      "inactiveMaskColor": "#d3afff33",
+      "borderColor": "#d3afff"
+    },
+
+
+    "FileColor": {
+      "Orange": "#FFD3B8",
+      "Green": "#99d7b0"
+    },
+
+    "Plugins": {
+      "Button": {
+        "updateBackground": "#baabff",
+        "updateBorderColor": "#baabff"
+      }
+    },
+    
+    "ProgressBar": {
+      "trackColor": "#baabff",
+      "progressColor": "#f39ca4",
+      "indeterminateStartColor": "#baabff",
+      "indeterminateEndColor": "#FFD3B8",
+      "failedColor": "#cc5079",
+      "failedEndColor": "#392313",
+      "passedColor": "#ace6ff",
+      "passedEndColor": "#abcfff"
+    },
+
+    "SearchEverywhere": {
+      "Header.background": "#DCEDC4",
+      "Tab": {
+        "selectedForeground": "#392313",
+        "selectedBackground": "#A9E6D0"
+      },
+      "SearchField":{
+        "background": "#DCEDC4",
+        "borderColor": "#657b83"
+      },
+      "//": "tiny text at the bottom of search everywhere",
+      "Advertiser.foreground": "#46D4E1"
+    },
+
+    "//": "in find all, it highlights the matches",
+    "SearchMatch": {
+      "startBackground": "#46D4E1",
+      "endBackground": "#46D4E1"
+    },
+    
+    "SidePanel.background": "#fadae2",
+
+    "//": "speed search is the fast search in Panels",
+    "SpeedSearch": {
+      "foreground": "#392313",
+      "borderColor": "#abcfff",
+      "background": "#ace6ff",
+      "errorForeground": "#EE6969"
+    },
+    
+    "Table.stripeColor": "#DCEDC4",
+    
+    "ToolWindow": {
+      "Header": {
+        "//": "sets things like Project and Event Log panel header when selected",
+        "background": "#f39ca4",
+        "//": "sets things like Project and Event Log panel header",
+        "inactiveBackground": "#ffd4db"
+      },
+      "//": "sets values for tabs in panes like Project, _only when Group Tabs is unselected_",
+      "HeaderTab": {
+        "selectedBackground": "#A9E6D0",
+        "hoverBackground": "#f39ca4",
+        "selectedInactiveBackground": "#DCEDC4",
+        "hoverInactiveBackground": "#fadae2"
+      },
+      "//": "controls buttons like 1: Project, 2: Favorites, 7: Structure, Maven, Gradle, Databases, etc. ",
+      "Button": {
+        "selectedBackground": "#A9E6D0",
+        "hoverBackground": "#DCEDC4"
+      }
+    }
+  },
+
+  "icons": {
+    "ColorPalette": {
+      
+      "//": "buttons like Project Structure, Run Anything, Search Everywhere in top toolbar",
+      "Actions.Grey": "#bb5a91",
+      "//": "stop button",
+      "Actions.Red": "#EE6969",
+      "//": "??",
+      "Actions.Yellow": "#fcbcbc",
+      "//": "go button!, debug button, run config, commit button",
+      "Actions.Green": "#129a7d",
+      "//": "git update project button, little module squares",
+      "Actions.Blue": "#22E9D6",
+      "//": "Structure pane, symbols",
+      "Actions.GreyInline.Dark": "#129a7db3",
+
+      "//": "all folder icons, many symbols",
+      "Objects.Grey": "#f39ca4",
+      "Objects.Pink": "#e31000",
+      "//": "Branches popup icons",
+      "Objects.Yellow": "#f274bc",
+      "//": "test folder",
+      "Objects.Green": "#129a7d",
+      "//": "main source folder",
+      "Objects.Blue": "#abcfff",
+      "//": "p on Structure pane",
+      "Objects.Purple": "#d3afff",
+      "//": "text in p, and tiny fonts on icons",
+      "Objects.BlackText": "#0FA0AFff",
+      "//": "things like the 3 bars on the resources folder",
+      "Objects.YellowDark": "#baabff",
+      "Objects.GreenAndroid": "#00d704",
+      "Objects.RedStatus": "#dd3962",
+      "Objects.Red": "#baabff",
+
+      "Checkbox.Background.Default": "#000bf3",
+      "Checkbox.Border.Default": "#99d7b0",
+      "Checkbox.Foreground.Selected": "#000bf3",
+      "Checkbox.Focus.Wide": "#d3afff",
+      "Checkbox.Focus.Thin.Default": "#d3afff",
+      "Checkbox.Focus.Thin.Selected": "#d3afff",
+      "Checkbox.Background.Disabled": "#99d7b0",
+      "Checkbox.Border.Disabled": "#99d7b0aa",
+      "Checkbox.Foreground.Disabled": "#129a7d"
+    }
+  }
+}
