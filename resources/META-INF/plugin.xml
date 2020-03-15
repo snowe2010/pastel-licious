@@ -1,16 +1,12 @@
 <idea-plugin>
   <id>com.tylerthrailkill.intellij.pastellicious</id>
   <name>Pastel-licious</name>
-  <version>1.0.0</version>
+  <version>1.1.0</version>
   <vendor email="tyler.b.thrailkill@gmail.com" url="http://tylerthrailkill.com">Tyler Thrailkill</vendor>
 
   <description><![CDATA[
       A <em>delicious</em> pastel theme, with bright cheery colors<br>
     ]]></description>
-
-  <change-notes><![CDATA[
-    ]]>
-  </change-notes>
 
   <idea-version since-build="191.0"/>
   <depends>com.intellij.modules.lang</depends>

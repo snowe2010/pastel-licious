@@ -1,20 +1,20 @@
 <scheme name="pastel-licious" version="142" parent_scheme="Default">
-  <colors>
-    <option name="GUTTER_BACKGROUND" value="e0d6ff" />
-  </colors>
-  <attributes>
-    <option name="TEXT">
-      <value>
-        <option name="FOREGROUND" value="0" />
-        <option name="BACKGROUND" value="f9f9f8" />
-      </value>
-    </option>
-    <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
-      <value>
-        <option name="FOREGROUND" value="0" />
-        <option name="BACKGROUND" value="d3afff" />
-        <option name="ERROR_STRIPE_COLOR" value="71b362" />
-      </value>
-    </option>
-  </attributes>
+    <colors>
+        <option name="GUTTER_BACKGROUND" value="e0d6ff"/>
+    </colors>
+    <attributes>
+        <option name="TEXT">
+            <value>
+                <option name="FOREGROUND" value="0"/>
+                <option name="BACKGROUND" value="f9f9f8"/>
+            </value>
+        </option>
+        <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
+            <value>
+                <option name="FOREGROUND" value="0"/>
+                <option name="BACKGROUND" value="d3afff"/>
+                <option name="ERROR_STRIPE_COLOR" value="71b362"/>
+            </value>
+        </option>
+    </attributes>
 </scheme>
