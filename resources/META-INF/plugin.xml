@@ -8,10 +8,6 @@
       A <em>delicious</em> pastel theme, with bright cheery colors<br>
     ]]></description>
 
-  <change-notes><![CDATA[
-    ]]>
-  </change-notes>
-
   <idea-version since-build="191.0"/>
   <depends>com.intellij.modules.lang</depends>
 
